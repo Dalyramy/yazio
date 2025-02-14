@@ -1,29 +1,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Hello Friend NG</title>
-        <link>//localhost:1313/posts/</link>
-        <description>Recent content in Posts on Hello Friend NG</description>
+        <title>Posts on the YAZ</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on the YAZ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title></title>
-            <link>//localhost:1313/posts/posts/create-a-link/</link>
+            <link>http://localhost:1313/posts/posts/create-a-link/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>//localhost:1313/posts/posts/create-a-link/</guid>
+            <guid>http://localhost:1313/posts/posts/create-a-link/</guid>
             <description></description>
             <content type="html"><![CDATA[]]></content>
         </item>
         
         <item>
             <title></title>
-            <link>//localhost:1313/posts/posts/storm-huh/</link>
+            <link>http://localhost:1313/posts/posts/storm-huh/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>//localhost:1313/posts/posts/storm-huh/</guid>
+            <guid>http://localhost:1313/posts/posts/storm-huh/</guid>
             <description>&lt;p&gt;storm heh&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>storm heh</p>
 ]]></content>
@@ -31,10 +31,10 @@
         
         <item>
             <title></title>
-            <link>//localhost:1313/posts/posts/the-yaz/</link>
+            <link>http://localhost:1313/posts/posts/the-yaz/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>//localhost:1313/posts/posts/the-yaz/</guid>
+            <guid>http://localhost:1313/posts/posts/the-yaz/</guid>
             <description>&lt;p&gt;Hello friend, someday we gonna be free &amp;hellip;&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>Hello friend, someday we gonna be free &hellip;</p>
 ]]></content>
@@ -42,10 +42,10 @@
         
         <item>
             <title></title>
-            <link>//localhost:1313/posts/posts/welcome/</link>
+            <link>http://localhost:1313/posts/posts/welcome/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>//localhost:1313/posts/posts/welcome/</guid>
+            <guid>http://localhost:1313/posts/posts/welcome/</guid>
             <description>&lt;p&gt;This is your new &lt;em&gt;vault&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Make a note of something, [[create a link]], or try &lt;a href=&#34;https://help.obsidian.md/Plugins/Importer&#34;&gt;the Importer&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;When you&amp;rsquo;re ready, delete this note and make the vault your own.&lt;/p&gt;</description>
