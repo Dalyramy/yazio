@@ -1,0 +1,33 @@
+name: Deploy Hugo site to Hostinger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build site
+        run: hugo
+
+      - name: Deploy to Hostinger
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote add hostinger https://github.com/Dalyramy/yazio.git
+          git fetch hostinger
+          git subtree split --prefix public -b hostinger-deploy
+          git push hostinger hostinger-deploy:hostinger --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
