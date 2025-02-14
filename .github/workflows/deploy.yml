@@ -22,12 +22,12 @@ jobs:
         run: hugo
 
       - name: Deploy to Hostinger
+        env:
+          PAT: ${{ secrets.PAT }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git remote add hostinger https://github.com/Dalyramy/yazio.git
+          git remote add hostinger https://${{ secrets.PAT }}@github.com/Dalyramy/yazio.git
           git fetch hostinger
           git subtree split --prefix public -b hostinger-deploy
           git push hostinger hostinger-deploy:hostinger --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
