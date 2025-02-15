@@ -3,7 +3,7 @@ name: Deploy Hugo site to Hostinger
 on:
   push:
     branches:
-      - main
+      - hostinger
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
@@ -31,3 +31,4 @@ jobs:
           git fetch hostinger
           git subtree split --prefix public -b hostinger-deploy
           git push hostinger hostinger-deploy:hostinger --force
+          git branch -D hostinger-deploy
