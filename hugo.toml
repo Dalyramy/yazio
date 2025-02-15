@@ -1,5 +1,5 @@
 baseurl      = "https://theyaz.io/"
-title        = "My Blog"
+title        = "My Shit"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 pagerSize     = 10
@@ -23,7 +23,7 @@ pagerSize     = 10
   enableGlobalLanguageMenu = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "testt"
   keywords = "homepage, blog"
   images = [""]
 
@@ -40,7 +40,7 @@ pagerSize     = 10
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+    subtitle  = "fuck you"
 
     [languages.en.params.logo]
       logoText = "the YAZ"
